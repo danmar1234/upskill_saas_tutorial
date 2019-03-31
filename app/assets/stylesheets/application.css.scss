@@ -22,7 +22,7 @@ h1, h2, h3 {
 }
 
 
-body, .navbar {
+.navbar, .home-callout {
   
   background-image: linear-gradient(to left, #617cff, #8379ff, #a174ff, #bc6ffc, #d568f7, #e75fe5, #f558d3, #ff52c1, #ff54a3, #ff5d88, #ff6b71, #fb7a5f);background-image: linear-gradient(to left, #617cff, #8379ff, #a174ff, #bc6ffc, #d568f7, #e75fe5, #f558d3, #ff52c1, #ff54a3, #ff5d88, #ff6b71, #fb7a5f);
   
@@ -30,4 +30,11 @@ body, .navbar {
 
 .navbar {
   border: none;
+}
+
+.home-callout {
+      color: white;
+      margin-top: -20px;
+      padding-top: 50px;
+      padding-bottom: 100px;
 }
